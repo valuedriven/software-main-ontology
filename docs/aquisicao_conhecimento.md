@@ -19,3 +19,6 @@
 
  - Planilha "aquisicao_conhecimento.xlxs" disponível neste repositório.
 
+## Modelo preliminar
+
+ - Para fins de simplificação, não foi criado um modelo preliminar.
