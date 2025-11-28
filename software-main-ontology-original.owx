@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/junilson/ontologies/2025/10/software-main-ontology-original"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/junilson/ontologies/2025/10/software-main-ontology-original">
+    <Prefix name="" IRI="http://www.semanticweb.org/junilson/ontologies/2025/10/software-main-ontology-original/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Análise_e_Modelagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apoio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auditoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avaliação_de_indicadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banco_de_Dados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baseline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capacitação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contagem_de_Ponto_de_Função"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dúvida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Help"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Implementação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infraestrutura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lições_aprendidas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monitoração"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Não_conformidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordem_de_Serviço"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participação_em_Formação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pesquisa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planejamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produção_de_Conteúdo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recrutamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reserva_de_risco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reunião"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revisão_de_código"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solicitação_de_mudança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugestão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liberação/Bloqueio_de_Acesso"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Apoio"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auditoria"/>
+        <Class IRI="#Documentação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avaliação_de_indicadores"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseline"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dúvida"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Help"/>
+        <Class IRI="#Documentação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implementação"/>
+        <Class IRI="#Infraestrutura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implementação"/>
+        <Class IRI="#Programação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lições_aprendidas"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monitoração"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Não_conformidade"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordem_de_Serviço"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outros"/>
+        <Class IRI="#Documentação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outros"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planejamento"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problema"/>
+        <Class IRI="#Infraestrutura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problema"/>
+        <Class IRI="#Programação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problema"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reserva_de_risco"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revisão_de_código"/>
+        <Class IRI="#Programação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solicitação_de_mudança"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugestão"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liberação/Bloqueio_de_Acesso"/>
+        <Class IRI="#Suporte"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Análise_e_Modelagem"/>
+        <Class IRI="#Banco_de_Dados"/>
+        <Class IRI="#Capacitação"/>
+        <Class IRI="#Contagem_de_Ponto_de_Função"/>
+        <Class IRI="#Documentação"/>
+        <Class IRI="#Gerenciamento_de_Projetos"/>
+        <Class IRI="#Infraestrutura"/>
+        <Class IRI="#Ordem_de_Serviço"/>
+        <Class IRI="#Participação_em_Formação"/>
+        <Class IRI="#Pesquisa"/>
+        <Class IRI="#Produção_de_Conteúdo"/>
+        <Class IRI="#Programação"/>
+        <Class IRI="#Recrutamento"/>
+        <Class IRI="#Reunião"/>
+        <Class IRI="#Suporte"/>
+        <Class IRI="#Teste"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Apoio"/>
+        <Class IRI="#Dúvida"/>
+        <Class IRI="#Ordem_de_Serviço"/>
+        <Class IRI="#Outros"/>
+        <Class IRI="#Problema"/>
+        <Class IRI="#Sugestão"/>
+        <Class IRI="#Liberação/Bloqueio_de_Acesso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Auditoria"/>
+        <Class IRI="#Help"/>
+        <Class IRI="#Outros"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Avaliação_de_indicadores"/>
+        <Class IRI="#Baseline"/>
+        <Class IRI="#Lições_aprendidas"/>
+        <Class IRI="#Monitoração"/>
+        <Class IRI="#Não_conformidade"/>
+        <Class IRI="#Planejamento"/>
+        <Class IRI="#Reserva_de_risco"/>
+        <Class IRI="#Solicitação_de_mudança"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Implementação"/>
+        <Class IRI="#Problema"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Implementação"/>
+        <Class IRI="#Problema"/>
+        <Class IRI="#Revisão_de_código"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
