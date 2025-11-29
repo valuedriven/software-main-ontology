@@ -256,7 +256,7 @@
         <Class IRI="#analise_desenho"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#analise_negocios"/>
+        <Class IRI="#analise_negocio"/>
     </Declaration>
     <Declaration>
         <Class IRI="#atividade"/>
@@ -500,6 +500,30 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000224"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataCriacao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataFim"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataInicio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#responsavel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#solicitante"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#definicao"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#responsavelDefinicao"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
@@ -919,8 +943,22 @@
         <Class IRI="#atividade_tecnica"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#analise_negocios"/>
+        <Class IRI="#analise_desenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#implementacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#analise_negocio"/>
         <Class IRI="#atividade_tecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#analise_negocio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#definicao_requisitos_cliente"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#atividade"/>
@@ -931,24 +969,66 @@
         <Class IRI="#atividade"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#atividade_tecnica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <Class IRI="#solicitacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#definicao_arquitetura"/>
         <Class IRI="#atividade_tecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definicao_arquitetura"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#analise_desenho"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#definicao_requisitos_cliente"/>
         <Class IRI="#atividade_tecnica"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#definicao_requisitos_cliente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#definicao_requisitos_sistema"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#definicao_requisitos_sistema"/>
         <Class IRI="#atividade_tecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definicao_requisitos_sistema"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#definicao_arquitetura"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#implementacao"/>
         <Class IRI="#atividade_tecnica"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#implementacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#integracao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#integracao"/>
         <Class IRI="#atividade_tecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#integracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#verificacao"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#manutencao_adaptativa"/>
@@ -976,19 +1056,40 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#solicitacao"/>
-        <Class abbreviatedIRI="obo:BFO_0000034"/>
+        <Class abbreviatedIRI="obo:BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#transicao"/>
         <Class IRI="#atividade_tecnica"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#transicao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#validacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#validacao"/>
         <Class IRI="#atividade_tecnica"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#validacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#operacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#verificacao"/>
         <Class IRI="#atividade_tecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verificacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
+            <Class IRI="#transicao"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:BFO_0000002"/>
@@ -1979,6 +2080,82 @@
         <ObjectProperty abbreviatedIRI="obo:BFO_0000224"/>
         <Class abbreviatedIRI="obo:BFO_0000203"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dataCriacao"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dataFim"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dataInicio"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#responsavel"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#solicitante"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataCriacao"/>
+        <Class IRI="#atividade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataCriacao"/>
+        <Class IRI="#solicitacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataFim"/>
+        <Class IRI="#atividade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataFim"/>
+        <Class IRI="#solicitacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataInicio"/>
+        <Class IRI="#atividade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataInicio"/>
+        <Class IRI="#solicitacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#responsavel"/>
+        <Class IRI="#atividade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#responsavel"/>
+        <Class IRI="#solicitacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#solicitante"/>
+        <Class IRI="#solicitacao"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataCriacao"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataFim"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataInicio"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#responsavel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#solicitante"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:identifier"/>
         <AbbreviatedIRI>obo:BFO_0000001</AbbreviatedIRI>
@@ -4864,6 +5041,175 @@
         <AbbreviatedIRI>obo:BFO_0000224</AbbreviatedIRI>
         <Literal xml:lang="en">has last instant</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#analise_desenho</IRI>
+        <Literal>analise_desenho é uma atividade_tecnica que realiza avaliações e decisões de troca (trade-offs) para garantir que a solução seja acessível, operável e sustentável ao longo do ciclo de vida e cria um projeto detalhado do software que enfatiza a manutenibilidade, rastreabilidade e compartimentalização de funções, especialmente ao lidar com erros e segurança.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#analise_desenho</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#analise_negocio</IRI>
+        <Literal>analise_negocio é uma atividade_tecnica que define o propósito, escopo e ambiente do sistema para garantir que as soluções propostas satisfaçam os objetivos de negócio ou missão da organização.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#analise_negocio</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#definicao_arquitetura</IRI>
+        <Literal>definicao_arquitetura é uma atividade_tecnica que transforma os requisitos em uma arquitetura de alto nível, definindo componentes de software e sua estrutura, com foco em considerações que simplificam a manutenção, como a separação de preocupações.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#definicao_arquitetura</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#definicao_requisitos_cliente</IRI>
+        <Literal>definicao_requisitos_cliente é uma atividade_tecnica que define as necessidades de todas as partes interessadas (incluindo usuários e organizações de manutenção) e as transforma em requisitos de sistema que afetam a manutenibilidade do sistema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#definicao_requisitos_cliente</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#definicao_requisitos_sistema</IRI>
+        <Literal>definicao_requisitos_sistema é uma atividade_tecnica que define exaustiva e inequivocamente os requisitos do sistema e/ou software, incluindo funções, interfaces, desempenho e manutenibilidade, com base nas necessidades das partes interessadas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#definicao_requisitos_sistema</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#implementacao</IRI>
+        <Literal>implementacao é uma atividade_tecnica que desenvolve, documenta e testa itens de software e bancos de dados, aplicando a escolha da linguagem, estrutura e padrões de codificação para maximizar a manutenibilidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#implementacao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#integracao</IRI>
+        <Literal>integracao é uma atividade_tecnica que combina os elementos de software e hardware desenvolvidos para formar o sistema completo, garantindo que as interfaces funcionem conforme o projetado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#integracao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#manutencao_adaptativa</IRI>
+        <Literal>manutencao_adaptativa é uma solicitacao que modifica um produto de software, realizada após a entrega, para mantê-lo utilizável em um ambiente alterado ou em constante mudança. A manutenção adaptativa fornece melhorias necessárias para acomodar as mudanças no ambiente em que o software opera. Essas mudanças ajudam a acompanhar a evolução do ambiente; por exemplo, uma atualização do sistema operacional resulta em alterações nos aplicativos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#manutencao_adaptativa</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#manutencao_aperfeicoativa</IRI>
+        <Literal>manutencao_aperfeicoativa é uma solicitacao que modifica um produto de software para proporcionar melhorias para os usuários, aprimoramento das informações para os usuários e registro de dados para melhorar o desempenho, a capacidade de manutenção ou outros atributos do software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#manutencao_aperfeicoativa</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#manutencao_corretiva</IRI>
+        <Literal>manutencao_corretiva é uma solicitacao que modifica um produto de software realizada após a entrega para corrigir problemas detectados. A modificação visa reparar o produto de software para atender aos requisitos de sistema definidos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#manutencao_corretiva</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#manutencao_evolutiva</IRI>
+        <Literal>manutencao_evolutiva é uma solicitacao que modifica um produto de software realizada após a entrega para adicionar funcionalidades ou recursos que aprimorem o uso do produto. Distingue-se do tipo de manutenção &quot;perfectiva&quot; e é reconhecido como um tipo de manutenção diferente por ser capaz de: — fornecer novas funções ou recursos adicionais para melhorar a usabilidade, o desempenho, a manutenibilidade ou outros atributos do software no futuro; — adicionar funcionalidades ou recursos com adições ou alterações relativamente grandes no software para melhorar os atributos do software após a entrega, com oportunidades identificadas para negociar quaisquer adições ou alterações na estratégia, métodos, recursos, acordos ou níveis de serviço de manutenção entre fornecedores e adquirentes. Pela norma, é chamada de &quot;Aditiva&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#manutencao_evolutiva</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#manutencao_preventiva</IRI>
+        <Literal>manutencao_preventiva é uma solicitacao que modifica um produto de software após a entrega para corrigir falhas latentes no software antes que elas ocorram no sistema em produção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#manutencao_preventiva</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#operacao</IRI>
+        <Literal>operacao é uma atividade_tecnica que utiliza o produto para fornecer os serviços necessários, monitorando o sistema e gerando relatórios de incidentes ou problemas (MRs/PRs) que podem acionar a manutenção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#operacao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#responsavelDefinicao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#transicao</IRI>
+        <Literal>transicao é uma atividade_tecnica que executa uma sequência controlada de ações para mover o software de um ambiente para outro ou do desenvolvedor para a manutenção, envolvendo transferência de código, dados e treinamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#transicao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#validacao</IRI>
+        <Literal>validacao é uma atividade_tecnica que confirma objetivamente que o sistema ou software pode atingir seu uso pretendido, metas e objetivos, assegurando que o produto final satisfaz as necessidades reais do cliente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#validacao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definicao"/>
+        <IRI>#verificacao</IRI>
+        <Literal>verificacao é uma atividade_tecnica que ajuda a confirmar que o software modificado ou novo atende aos seus requisitos e que não introduziu novos defeitos, usando testes, como o de regressão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fonteDefinicao"/>
+        <IRI>#verificacao</IRI>
+        <Literal>https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:14764:ed-3:v1:en</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#responsavelDefinicao"/>
+        <IRI>#solicitacao</IRI>
+    </AnnotationPropertyDomain>
 </Ontology>
 
 
