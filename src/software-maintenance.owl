@@ -2074,6 +2074,271 @@
         </ObjectIntersectionOf>
     </SubClassOf>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acao_corretiva</IRI>
+        <Literal>acao_corretiva é um produto_trabalho que descreve as medidas tomadas para eliminar a causa raiz de uma não conformidade ou defeito detectado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acompanhar_melhorias</IRI>
+        <Literal>acompanhar_melhorias trata de acompanhar as melhorias propostas e propor ações corretivas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acompanhar_operacao</IRI>
+        <Literal>acompanhar_operacao é uma tarefa que supervisiona o estado atual dos serviços em execução para garantir a disponibilidade e responder a eventos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acompanhar_projeto</IRI>
+        <Literal>acompanhar_projeto é uma atividade que monitora o progresso real das tarefas em comparação ao planejado, identificando desvios e riscos que exijam ações corretivas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acompanhar_relacionamento_cliente</IRI>
+        <Literal>acompanhar_relacionamento_cliente é uma tarefa que mantém a comunicação regular com os contratantes do serviço para alinhar expectativas e revisar a satisfação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#analisar_solicitacao</IRI>
+        <Literal>analisar_solicitacao é uma atividade que examina tecnicamente uma demanda recebida para determinar sua viabilidade, impacto, custos e a melhor abordagem para sua resolução.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#analista_capacitacao</IRI>
+        <Literal>analista_capacitacao é um papel responsável por diagnosticar necessidades de treinamento e organizar a logística de desenvolvimento de pessoas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#analista_metricas</IRI>
+        <Literal>analista_metricas é um papel responsável por coletar, consolidar e analisar dados de desempenho para apoiar a gestão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#analista_requisitos</IRI>
+        <Literal>analista_requisitos é um papel responsável por elicitar, analisar, documentar e manter os requisitos do sistema junto às partes interessadas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#analista_suporte</IRI>
+        <Literal>analista_suporte é um papel responsável pelo atendimento de primeiro e segundo nível aos usuários, resolvendo incidentes e dúvidas operacionais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#atender_solicitacao</IRI>
+        <Literal>atender_solicitacao é uma atividade que engloba o ciclo de vida do tratamento de uma demanda de usuário, desde o recebimento até o encerramento, focando na restauração do serviço ou atendimento de requisições.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#atividade</IRI>
+        <Literal>atividade é uma unidade maior de trabalho dentro de um processo; uma agregação de tarefas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ativo_processo</IRI>
+        <Literal>ativo_processo é um produto_trabalho que serve como modelo, guia, checklist ou ferramenta para apoiar a execução padronizada dos processos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#auditar_baselines</IRI>
+        <Literal>auditar_baselines é uma tarefa que verifica se os itens de configuração reais correspondem aos registros da linha de base documentada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#build</IRI>
+        <Literal>build é um produto_trabalho que consiste na versão executável do software gerada a partir da compilação do código-fonte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#capacitacao</IRI>
+        <Literal>capacitacao é um produto_trabalho que materializa o conteúdo instrucional, apostilas e apresentações entregues durante as sessões de ensino.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#codigo_fonte</IRI>
+        <Literal>codigo_fonte é um produto de trabalho que consiste em instruções escritas em linguagem de programação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#construir_solucao</IRI>
+        <Literal>construir_solucao é uma tarefa que codifica e integra os componentes de software de acordo com o design especificado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#desenhar_solucao</IRI>
+        <Literal>desenhar_solucao é uma tarefa que define a arquitetura técnica, os componentes e a modelagem de dados do sistema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#desenho_solucao</IRI>
+        <Literal>desenho_solucao é um produto_trabalho que representa a estrutura arquitetural, interfaces e design lógico do sistema a ser construído.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#desenvolvedor</IRI>
+        <Literal>desenvolvedor é um papel que possui a competência técnica para traduzir requisitos e desenhos em código executável</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#desenvolver_produto</IRI>
+        <Literal>desenvolver_produto é um processo cujo primeiro propósito é estabelecer e manter atualizados planos que definam as atividades, recursos, riscos, prazos e responsabilidades do projeto. Também é propósito deste processo prover informações sobre o andamento do projeto que permitam a realização de correções quando houver desvios significativos no desempenho do projeto, incluindo análise de causas dos desvios. O segundo propósito é projetar, desenvolver e implementar soluções para atender aos requisitos. O terceiro é montar os componentes do produto conforme a estratégia definida, produzindo um produto integrado consistente com seu projeto (design) e seus requisitos. O quarto propósito é confirmar que os produtos de trabalho selecionados atendem aos requisitos especificados, pela execução de testes e revisão por pares, e que um produto ou componente do produto atenderá a seu uso pretendido quando colocado no ambiente operacional. Está associado aos processos Gerência de Projetos, Engenharia de Requisitos, Projeto e Construção do Produto, Integração do Produto e Verificação e Validação, do MPS.BR MR-SW.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#desenvolver_solucao</IRI>
+        <Literal>desenvolver_solucao é uma atividade que engloba a criação técnica e implementação dos artefatos de software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#entregar_solucao</IRI>
+        <Literal>entregar_solucao é uma atividade que transfere o produto de software validado do ambiente de desenvolvimento para o ambiente de produção ou para o cliente final.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#especificacao_requisitos</IRI>
+        <Literal>especificacao_requisitos é um produto_trabalho que detalha formalmente o comportamento funcional e não funcional esperado do software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#especificacao_suplementar</IRI>
+        <Literal>especificacao_suplementar é um produto_trabalho que captura requisitos globais, como atributos de qualidade e restrições legais, não cobertos nos casos de uso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#especificacao_testes</IRI>
+        <Literal>especificacao_testes é um produto_trabalho que detalha os procedimentos, casos de teste e dados de entrada necessários para executar as validações.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#especificar_requisitos</IRI>
+        <Literal>especificar_requisitos é uma tarefa que documenta de forma estruturada as funções, restrições e interfaces que o sistema deve possuir.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#executar_garantia_qualidade</IRI>
+        <Literal>executar_garantia_qualidade é uma tarefa que realiza auditorias objetivas para verificar a aderência dos processos e produtos aos padrões definidos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#funcionalidade</IRI>
+        <Literal>produto_software é uma entidade de conteúdo de imformação que consiste em um conjunto de programas de computador, procedimentos e possível documentação e dados associados [ISO/IEC/IEEE, 2017].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_acoes_corretivas</IRI>
+        <Literal>gerenciar_acoes_corretivas_operacao é uma tarefa que aplica soluções definitivas ou de contorno para incidentes ocorridos especificamente no ambiente de produção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_capacitacao</IRI>
+        <Literal>gerenciar_capacitacao é uma atividade que assegura que a equipe possua as competências e conhecimentos necessários para desempenhar suas funções através de treinamento e desenvolvimento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_configuracoes</IRI>
+        <Literal>gerenciar_configuracoes é uma atividade que controla a integridade dos artefatos do projeto, identificando itens, controlando versões e auditando as linhas de base.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_decisoes</IRI>
+        <Literal>gerenciar_decisoes é uma atividade que estrutura a escolha formal entre alternativas técnicas ou gerenciais utilizando critérios objetivos de avaliação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_medicoes</IRI>
+        <Literal>gerenciar_medicoes é uma atividade que coleta, analisa e reporta dados quantitativos para apoiar a gestão baseada em fatos e o entendimento do desempenho dos processos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_melhoria</IRI>
+        <Literal>gerenciar_melhoria é uma atividade que identifica, prioriza e implementa mudanças nos processos organizacionais visando aumentar a eficiência e a qualidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_operacao_servicos</IRI>
+        <Literal>gerenciar_operacao_servicos é uma atividade que coordena a entrega e o suporte contínuo dos serviços de TI acordados, assegurando a estabilidade e o cumprimento dos níveis de serviço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_oportunidades_melhoria</IRI>
+        <Literal>gerenciar_oportunidades_melhoria é uma tarefa que analisa sugestões de evolução e decide sobre sua implementação no ciclo de melhoria contínua.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_organizacao</IRI>
+        <Literal>gerenciar_organizacao é um processo cujo primeiro propósito é estabelecer e manter a integridade de produtos de trabalho e disponibilizá-los a todos os envolvidos. O segundo propósito é coletar, armazenar, analisar e relatar dados objetivos relacionados aos produtos/serviços desenvolvidos e aos processos implementados, de forma a apoiar os objetivos organizacionais. O terceiro propósito é analisar possíveis decisões críticas usando um processo formal, com critérios estabelecidos, para avaliação das alternativas identificadas. O quarto propósito é prover a organização com recursos humanos com as competências adequadas às necessidades do negócio.  O quinto propósito é estabelecer, manter atualizado, identificar e realizar melhorias em um conjunto de ativos de processo da organização e padrões do ambiente de trabalho usáveis e aplicáveis às necessidades de negócio da organização. Também é propósito deste processo definir as estratégias para a garantia da qualidade e gerência de riscos/oportunidades e a infraestrutura para realização de medições. O sexto propósito é fornecer para a gerência da organização instrumentos para apoiar os processos e prover um alinhamento entre os objetivos de negócio, os processos, os recursos e os projetos/serviços da organização. Está associado aos processos Gerência de Configuração, Medição, Gerência de Decisões, Capacitação, Gerência de Processos, Gerência Organizacional de Software e Serviços dos MPS.BR MR-SW e MR-SV.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_processos</IRI>
+        <Literal>gerenciar_processos é uma atividade que estabelece, mantém e difunde os padrões de trabalho, políticas e procedimentos a serem seguidos pela organização.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerenciar_servicos</IRI>
+        <Literal>gerenciar_servicos é um processo cujo primeiro propósito é estabelecer, planejar, monitorar e prover informações da operação de serviços, permitindo a realização de replanejamento e correções quando houver desvios significativos em seu desempenho. O segundo propósito do processo é tratar incidentes, problemas e solicitações de serviços de acordo com os níveis de serviços (ANS) estabelecidos. O último propósito é estabelecer e manter os acordos de nível de serviços. Está associado aos processos Gerência de Operações, Atendimento e solução e Gerência de Nível de Serviço do MPS.BR MR-SV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerente_configuracao</IRI>
+        <Literal>gerente_configuracao é um papel responsável por estabelecer e manter a integridade dos produtos de trabalho através de identificação e controle de versão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerente_decisoes</IRI>
+        <Literal>gerente_decisoes é um papel responsável por coordenar o processo formal de avaliação e seleção de alternativas para decisões complexas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerente_operacoes</IRI>
+        <Literal>gerente_operacoes é um papel responsável por garantir a entrega contínua e a estabilidade dos serviços de TI acordados com os clientes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerente_organizacional</IRI>
+        <Literal>gerente_organizacional é um papel responsável por prover a direção estratégica, patrocínio e recursos financeiros para a execução dos projetos e operações.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerente_processos</IRI>
+        <Literal>gerente_processos é um papel responsável por definir a arquitetura de processos da organização e monitorar sua aderência e evolução.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gerente_projetos</IRI>
+        <Literal>gerente_projetos é um papel responsável por liderar a equipe e gerenciar as restrições de escopo, tempo e custo para atingir os objetivos do projeto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#implantar_ambiente_producao</IRI>
+        <Literal>implantar_ambiente_producao é uma tarefa que instala e configura a versão estável do software no ambiente onde será utilizado pelos usuários finais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#implantar_ambiente_testes</IRI>
+        <Literal>implantar_ambiente_testes é uma tarefa que prepara e configura a infraestrutura onde as validações de software serão executadas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#implementar_solucao</IRI>
+        <Literal>implementar_solucao é uma tarefa que consiste na codificação da lógica de software baseada no desenho técnico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#manter_ativos_processo</IRI>
+        <Literal>manter_ativos_processo é uma tarefa que atualiza e organiza a biblioteca de processos com novos modelos, lições aprendidas e melhores práticas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#manutencao_adaptativa</IRI>
+        <Literal>manutencao_adaptativa é uma solicitacao_mudanca que modifica um produto de software, realizada após a entrega, para mantê-lo utilizável em um ambiente alterado ou em constante mudança. A manutenção adaptativa fornece melhorias necessárias para acomodar as mudanças no ambiente em que o software opera. Essas mudanças ajudam a acompanhar a evolução do ambiente; por exemplo, uma atualização do sistema operacional resulta em alterações nos aplicativos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#manutencao_aperfeicoativa</IRI>
+        <Literal>manutencao_aperfeicoativa é uma solicitacao_mudanca que modifica um produto de software para proporcionar melhorias para os usuários, aprimoramento das informações para os usuários e registro de dados para melhorar o desempenho, a capacidade de manutenção ou outros atributos do software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
         <IRI>#manutencao_corretiva</IRI>
         <Literal>Gestor processos</Literal>
@@ -2090,13 +2355,193 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#manutencao_evolutiva</IRI>
+        <Literal>manutencao_evolutiva é uma solicitacao_mudanca que modifica um produto de software realizada após a entrega para adicionar funcionalidades ou recursos que aprimorem o uso do produto. Distingue-se do tipo de manutenção &quot;perfectiva&quot; e é reconhecido como um tipo de manutenção diferente por ser capaz de: — fornecer novas funções ou recursos adicionais para melhorar a usabilidade, o desempenho, a manutenibilidade ou outros atributos do software no futuro; — adicionar funcionalidades ou recursos com adições ou alterações relativamente grandes no software para melhorar os atributos do software após a entrega, com oportunidades identificadas para negociar quaisquer adições ou alterações na estratégia, métodos, recursos, acordos ou níveis de serviço de manutenção entre fornecedores e adquirentes. Pela norma, é chamada de &quot;Aditiva&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#manutencao_preventiva</IRI>
+        <Literal>manutencao_preventiva é uma solicitacao_mudanca que modifica um produto de software após a entrega para corrigir falhas latentes no software antes que elas ocorram no sistema em produção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#modulo</IRI>
+        <Literal>módulo é uma entidade de conteúdo de imformação que representa uma unidade maior dentro de um produto_software; uma agregação de funcionalidades.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#planejar_entrega</IRI>
+        <Literal>planejar_entrega é uma atividade que define o roteiro, o cronograma e a alocação de recursos necessários para disponibilizar um pacote de trabalho ou versão de software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#planejar_garantia_qualidade</IRI>
+        <Literal>planejar_garantia_qualidade é uma tarefa que define quais atividades e produtos de trabalho serão auditados e qual a periodicidade das avaliações.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#planejar_melhorias</IRI>
         <Literal>planejar_melhorias é uma tarefa cujos objetivos são planejar as melhorias do desempenho do processo incluindo: definir diretrizes para melhoria, criar plano de implementação de melhorias, identificar informações para gerência de processos, garantir recursos, definir autoridade e alinhamento, gerenciar riscos e oportunidades organizacionais</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#planejar_operacao</IRI>
+        <Literal>planejar_operacao é uma tarefa que define os procedimentos rotineiros e a infraestrutura necessária para sustentar a execução dos serviços.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#planejar_projeto</IRI>
+        <Literal>planejar_projeto é uma tarefa que elabora o plano de gerenciamento, definindo escopo, WBS, cronograma e riscos do projeto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#planejar_testes</IRI>
+        <Literal>planejar_testes é uma tarefa que define a estratégia de verificação, os casos de teste e o ambiente necessário para a validação da qualidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_capacitacao</IRI>
+        <Literal>plano_capacitacao é um produto_trabalho que descreve o cronograma e o conteúdo dos treinamentos necessários para suprir as necessidades da equipe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_configuracao</IRI>
+        <Literal>plano_configuracao é um produto_trabalho que define as regras para identificação, controle de versão e auditoria dos itens de configuração.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_garantia_qualidade</IRI>
+        <Literal>plano_garantia_qualidade é um produto_trabalho que estipula o calendário e os critérios das auditorias de processo e produto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_medicoes</IRI>
+        <Literal>plano_medicoes é um produto_trabalho que especifica quais indicadores serão coletados, seus métodos de coleta, armazenamento e análise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_melhorias</IRI>
+        <Literal>plano_melhorias é um produto_trabalho que define as ações táticas para implementar evoluções nos processos da organização.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_operacao</IRI>
+        <Literal>plano_operacao é um produto_trabalho que documenta a estratégia, recursos e procedimentos para a sustentação dos serviços de TI.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_projeto</IRI>
+        <Literal>plano_projeto é um produto_trabalho que consolida as definições de escopo, custo, prazo, qualidade e riscos que guiarão a execução do projeto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#plano_testes</IRI>
+        <Literal>plano_testes é um produto_trabalho que descreve o escopo, a abordagem, os recursos e o cronograma das atividades de teste pretendidas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#processo_software</IRI>
+        <Literal>processo_software é um conjunto de atividades inter-relacionadas ou interativas, que transforma insumos (entradas) em produtos (saídas) [ISO/IEC/IEEE, 2017]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#produto_software</IRI>
+        <Literal>produto_software é uma entidade de conteúdo de imformação que consiste em um conjunto de programas de computador, procedimentos e possível documentação e dados associados [ISO/IEC/IEEE, 2017].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realizar_capacitacao</IRI>
+        <Literal>realizar_capacitacao é uma tarefa que executa as sessões instrucionais planejadas para transferir conhecimento à equipe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realizar_estimativa</IRI>
+        <Literal>realizar_estimativa é uma tarefa que prevê o esforço, custo, tamanho ou prazo necessários para a realização de um item de trabalho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realizar_testes_aceite</IRI>
+        <Literal>realizar_testes_aceite é uma tarefa que valida se a solução atende aos requisitos de negócio definidos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realizar_testes_integracao</IRI>
+        <Literal>realizar_testes_integracao é uma tarefa que verifica se os diferentes módulos ou componentes do sistema funcionam corretamente quando operam em conjunto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realizar_triagem_solicitacao</IRI>
+        <Literal>realizar_triagem_solicitacao é uma tarefa que classifica, prioriza e direciona a demanda registrada para a fila de atendimento correta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#refinar_entendimento</IRI>
+        <Literal>refinar_entendimento é uma atividade que detalha e esclarece as necessidades das partes interessadas para eliminar ambiguidades antes do planejamento da solução.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#registrar_solicitacao</IRI>
+        <Literal>registrar_solicitacao é uma tarefa que formaliza a entrada de uma nova necessidade ou incidente no sistema de controle, documentando suas informações iniciais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relatorio_acompanhamento_operacao</IRI>
+        <Literal>relatorio_acompanhamento_operacao é um produto_trabalho que apresenta indicadores de desempenho, disponibilidade e incidentes dos serviços em um determinado período.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relatorio_garantia_qualidade</IRI>
+        <Literal>relatorio_garantia_qualidade é um produto_trabalho que documenta as constatações, desvios e não conformidades identificados durante as auditorias.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relatorio_testes</IRI>
+        <Literal>relatorio_testes é um produto_trabalho que sumariza os resultados da execução dos testes, incluindo taxas de aprovação e defeitos encontrados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relatorio_tomada_decisoes</IRI>
+        <Literal>relatorio_tomada_decisoes é um produto_trabalho que registra a análise comparativa das alternativas e a justificativa da decisão escolhida.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#solicitacao_mudanca</IRI>
         <Literal>solicitacao_mudanca é um documento que identifica e descreve mudanças propostas em um produto ou serviço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#solucao_implantada</IRI>
+        <Literal>solucao_implantada é um produto_trabalho que representa o sistema instalado, configurado e operacional no ambiente de produção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#solucao_implementada</IRI>
+        <Literal>solucao_implementada é um produto_trabalho que engloba o software codificado e testado unitariamente, pronto para testes de integração.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tarefa</IRI>
+        <Literal>tarefa é a menor unidade de trabalho atômica gerenciável, realizada por um papel específico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#testador</IRI>
+        <Literal>testador é um papel que é responsável por verificar e validar a qualidade dos produtos de trabalho gerados</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#testar_solucao</IRI>
+        <Literal>testar_solucao é uma atividade que executa verificações dinâmicas no produto de software para garantir que ele atenda aos requisitos especificados e esteja livre de defeitos críticos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tratar_solicitacao</IRI>
+        <Literal>tratar_solicitacao é uma tarefa que executa as ações técnicas necessárias para resolver um incidente ou cumprir uma requisição de serviço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#validar_requisitos</IRI>
+        <Literal>validar_requisitos é uma tarefa que confirma junto aos stakeholders se os requisitos documentados correspondem às suas reais necessidades e intenções.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
